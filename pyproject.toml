@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ankigenbot"
+version = "0.1.0"
+description = ""
+authors = ["Gccpacman <gccpacman@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+telegram = "^0.0.1"
+python-telegram-bot = "^20.7"
+
+[tool.poetry.group.dev.dependencies]
+selenium = "^4.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
